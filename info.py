@@ -31,7 +31,7 @@ CODE = (environ.get('CODE', 'https://envs.sh/5oN.jpg'))
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'api.shareus.io'))
 STREAM_API = (environ.get('STREAM_API', 'PUIAQBIFrydvLhIzAOeGV8yZppu2'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Ultroid_Official/18'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/c/2041246768/241'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6102951142').split()]
